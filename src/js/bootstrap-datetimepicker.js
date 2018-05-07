@@ -2342,12 +2342,12 @@
                     //show the date picker
                     cache.firstLi.collapse('show');
                     cache.lastLi.collapse('hide');
-                    cache.span.removeClass('glyphicon-calendar').addClass('glyphicon-time');
+                    cache.span.removeClass('fa-calendar-alt').addClass('fa-clock');
                 } else if (view === 'timepicker') {
                     //show the time picker
                     cache.firstLi.collapse('hide');
                     cache.lastLi.collapse('show');
-                    cache.span.removeClass('glyphicon-time').addClass('glyphicon-calendar');
+                    cache.span.removeClass('fa-clock').addClass('fa-calendar-alt');
                 }
             }
             return picker;
@@ -2493,15 +2493,15 @@
         disabledDates: false,
         enabledDates: false,
         icons: {
-            time: 'glyphicon glyphicon-time',
-            date: 'glyphicon glyphicon-calendar',
-            up: 'glyphicon glyphicon-chevron-up',
-            down: 'glyphicon glyphicon-chevron-down',
-            previous: 'glyphicon glyphicon-chevron-left',
-            next: 'glyphicon glyphicon-chevron-right',
-            today: 'glyphicon glyphicon-screenshot',
-            clear: 'glyphicon glyphicon-trash',
-            close: 'glyphicon glyphicon-remove'
+            time: 'fa fa-clock',
+            date: 'fa fa-calendar-alt',
+            up: 'fa fa-angle-up',
+            down: 'fa fa-angle-down',
+            previous: 'fa fa-angle-left',
+            next: 'fa fa-angle-right',
+            today: 'fa fa-crosshairs',
+            clear: 'fa fa-trash-alt',
+            close: 'fa fa-times'
         },
         tooltips: {
             today: 'Go to today',
